@@ -144,13 +144,6 @@ MESSAGE_TAGS = {
     
 }
 
-# Email Config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'acozeljkovic1989@gmail.com'
-EMAIL_HOST_PASSWORD = 'delije sever1989'
-EMAIL_USE_TLS = True
-
 try:
     from local_settigs import *
 except ImportError:
